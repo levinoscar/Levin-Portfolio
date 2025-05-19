@@ -7,8 +7,11 @@ export const About = () => {
         "JavaScript",
         "TypeScript",
         "HTML/CSS",
-        "TailwindCSS",
-        "Figma (UI/UX)",
+        "TailwindCSS", 
+        "JSON", 
+        "Object-Oriented Programming (OOP)",
+        "Figma (UI/UX)", 
+        "Tableau",
         "Basic understanding of Swift"
     ];
 
@@ -20,9 +23,10 @@ export const About = () => {
         "Kubernetes",
         "Firebase",
         "AWS", 
-        "Spring Boot",
+        "Spring Boot", 
+        "Docker Storage",
         "PostgreSQL", 
-        "Basic understanding of REST APIs, SQL, MongoDB, Oracle SQL, Google Cloud, Microsoft Azure and KQL"
+        "Basic understanding of C, REST APIs, SQL, MongoDB, Oracle SQL, NoSQL, Google Cloud, Microsoft Azure and KQL"
     ];
 
     return (
