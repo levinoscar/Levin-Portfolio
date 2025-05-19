@@ -8,7 +8,8 @@ export const About = () => {
         "TypeScript",
         "HTML/CSS",
         "TailwindCSS",
-        "Figma"
+        "Figma (UI/UX)",
+        "Basic understanding of Swift"
     ];
 
     const backendSkills = [
@@ -16,6 +17,7 @@ export const About = () => {
         "Python", 
         "Java", 
         "Kotlin",
+        "Kubernetes",
         "Firebase",
         "AWS", 
         "Spring Boot",

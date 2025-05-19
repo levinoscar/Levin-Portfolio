@@ -17,14 +17,15 @@ export const Projects = () => {
                             <h3 className="text-xl font-bold mb-2">Generative AI Therapy ChatBot</h3>
                             <p className="text-gray-400 mb-4">
                                 Built a full-stack AI therapy chatbot with HuggingFace Transformers
-                                in Google Colab to create a pretrained LLM model and fine-tuned Ollama 
+                                in Google Colab to create a pretrained LLM chatbot model that was 
+                                fine-tuned in Unslothed Ollama (Llama 3.1)
                                 (Llama 3.1-8B)
                             </p>
                             <div className="flex flex-wrap gap-2 mb-4">
                                 {[
                                     "React.js", "Node.js", "JavaScript", "TypeScript", "Python", "Google Colab (Jupyter Notebook)",
                                     "TensorFlow.js", "Large Language Model (LLM) Fine-Tuning", "Natural Language Processing (NLP)",
-                                    "Firebase", "HuggingFace Transformers"
+                                    "Kubernetes", "Firebase", "HuggingFace Transformers"
                                 ].map((tech, key) => (
                                 <span
                                     key={key}
