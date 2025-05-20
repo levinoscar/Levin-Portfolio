@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "npm run build && xcopy dist\\*.* . /E /H /Y && git add . && git commit -m \"Deploy\" && git push"
   },
   "dependencies": {
     "portfolio": "file:",
