@@ -3,14 +3,14 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://oscarlevin.dev",
+  "homepage": "https://www.oscarlevin.dev",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "npm run build && xcopy dist\\*.* . /E /H /Y && git add . && git commit -m \"Deploy\" && git push"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "portfolio": "file:",
